@@ -1,0 +1,82 @@
+@font-face {
+  font-family: 'TT Lakes';
+  src: url(../fonts/TTLakes-Regular.eot);
+  src: url(../fonts/TTLakes-Regular.eot) format('embedded-opentype'),
+  url(../fonts/TTLakes-Regular.woff) format('woff'),
+  url(../fonts/TTLakes-Regular.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'TT Lakes';
+  src: url(../fonts/TTLakes-Bold.eot);
+  src: url(../fonts/TTLakes-Bold.eot) format('embedded-opentype'),
+  url(../fonts/TTLakes-Bold.woff) format('woff'),
+  url(../fonts/TTLakes-Bold.ttf) format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'TT Lakes';
+  src: url(../fonts/TTLakes-Medium.eot);
+  src: url(../fonts/TTLakes-Medium.eot) format('embedded-opentype'),
+  url(../fonts/TTLakes-Medium.woff) format('woff'),
+  url(../fonts/TTLakes-Medium.ttf) format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+html {
+    box-sizing: border-box;
+}
+*,*::after,*::before {
+    box-sizing: inherit;
+}
+
+body {
+    position: relative;
+    min-width: 320px;
+   /* overflow-x: hidden;*/
+    font-family: TT Lakes, serif;
+    background: #F8F8F8;
+    padding: 0;
+    margin: 0;
+}
+
+@media (min-width: 1440px) {
+  body {
+    display: flex;
+  }
+  .aside {
+    display: flex;
+    flex: 0 0 20%;
+    background: #FFFFFF;
+    margin: 0;
+    padding: 0;
+  }
+  .main {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 80%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+ 
+}
+
+@import '../scss/vars.scss';
+@import '../scss/header-container.scss';
+@import '../scss/slide-menu.scss';
+@import '../scss/main-container-block-1.scss';
+@import '../scss/container.scss';
+@import '../scss/header.scss';
+@import '../scss/swiper.scss';
+@import '../scss/tech-block.scss';
+@import '../scss/swiper2.scss';
+@import '../scss/tech-block2.scss';
+@import '../scss/service-block.scss';
+@import '../scss/service-block2.scss';
+@import '../scss/footer.scss';
+@import '../scss/menu-burger.scss';
+@import '../scss/feedback-block.scss';
+@import '../scss/call-block.scss';
