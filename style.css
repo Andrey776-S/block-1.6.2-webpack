@@ -899,7 +899,7 @@ div.menu-burger__main .menu-list li a:hover {
   color: #7E7E82; }
 
 .menu-list a:hover::before {
-  content: url(/img/highlight.svg);
+  content: url(img/highlight.svg);
   position: absolute;
   left: 0; }
 
@@ -907,7 +907,7 @@ div.menu-burger__main .menu-list li a:hover {
   color: #7E7E82; }
 
 .menu-list a:focus::before {
-  content: url(/img/highlight.svg);
+  content: url(img/highlight.svg);
   position: absolute;
   left: 0; }
 
