@@ -290,12 +290,12 @@ nav .slide-menu a:hover {
   flex-direction: column;
   min-height: 234px; }
 
-.header {
+.header-repair {
   padding: 16px;
   background: linear-gradient(270deg, #F8F8F8 0%, #FFFFFF 98.61%);
   border-top: 1px solid #D9FFF5; }
 
-.header__title {
+.header-repair__title {
   flex-shrink: 0;
   font-family: TT Lakes, serif;
   font-weight: 500;
@@ -899,7 +899,7 @@ div.menu-burger__main .menu-list li a:hover {
   color: #7E7E82; }
 
 .menu-list a:hover::before {
-  content: url(../img/highlight.svg);
+  content: url(./static/highlight.svg);
   position: absolute;
   left: 0; }
 
@@ -907,7 +907,7 @@ div.menu-burger__main .menu-list li a:hover {
   color: #7E7E82; }
 
 .menu-list a:focus::before {
-  content: url(../img/highlight.svg);
+  content: url(./static/highlight.svg);
   position: absolute;
   left: 0; }
 
@@ -1138,25 +1138,24 @@ div.menu-burger__main .menu-list li a:hover {
     margin: 0 32px 16px 32px; } }
 
 .feedbackBtn-submit {
-  display: flex;
   width: 136px;
   height: 32px;
   margin-left: auto;
   margin-right: 16px;
-  justify-content: center;
-  align-items: center;
   background: #FF3E79;
-  border-radius: 16px; }
-
-.feedbackBtn-submit span {
+  border-radius: 16px;
   font-family: TT Lakes;
   font-size: 12px;
+  font-weight: 900;
   line-height: 24px;
-  text-align: right;
   letter-spacing: -0.15px;
   text-transform: uppercase;
   margin-right: 12px;
+  vertical-align: middle;
   color: #FFFFFF; }
+
+.feedbackBtn-submit img {
+  margin-left: 13px; }
 
 .call-body {
   position: fixed;
