@@ -122,7 +122,7 @@
   }
   
   .menu-list a:hover::before {
-    content: url(/img/highlight.svg);
+    content: url(../img/highlight.svg);
     position: absolute;
     left: 0;
   }
@@ -132,7 +132,7 @@
   }
   
   .menu-list a:focus::before {
-    content: url(/img/highlight.svg);
+    content: url(../img/highlight.svg);
     position: absolute;
     left: 0;
   }

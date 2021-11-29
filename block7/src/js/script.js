@@ -85,7 +85,7 @@ feedbackBody.addEventListener('click', function(event){
 });
 
 
-const swiper1 = new Swiper('.swiper', {
+const swiperRepairBlock = new Swiper('.swiper', {
     slidesPerView: 'auto',
     spaceBetween: 16,
     slidesOffsetBefore: 16,
@@ -100,7 +100,7 @@ const swiper1 = new Swiper('.swiper', {
     }
 });
 
-const swiper2 = new Swiper('.swiper2', {
+const swiperTechBlock = new Swiper('.swiper2', {
     // wrapperClass: 'tech-block__wrapper',
     slideClass: 'tech-block__slide',
     paginationClass: 'tech-block__pagination',
@@ -125,7 +125,7 @@ const swiper2 = new Swiper('.swiper2', {
     },
 });
 
-const swiper3 = new Swiper('.swiper3', {
+const swiperServiceBlock = new Swiper('.swiper3', {
     // wrapperClass: 'tech-block__wrapper',
     slideClass: 'service-block__slide',
     paginationClass: 'service-block__pagination',
